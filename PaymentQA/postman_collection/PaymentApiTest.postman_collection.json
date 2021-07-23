@@ -1,0 +1,76 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PaymentApiTest",
+		"_postman_id": "81312434-2da7-13e7-39df-75372a88f4f0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "accesstoken",
+			"description": "",
+			"item": [
+				{
+					"name": "accessToken",
+					"request": {
+						"url": "https://api.payments.ca/accesstoken",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Basic dnFLTUczRmUzYk02T0hDTFU0a041V1VpVUdzMnlMVXg6cW1sMmhuNXpZZ3hjekF1Nw==",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "dprn",
+			"description": "",
+			"item": [
+				{
+					"name": "dprn",
+					"request": {
+						"url": "https://api.payments.ca/fif-branch-sandbox/branches/123456789",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/vnd.fif.api.v1+json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer kfnrZn8DCfHNRnS4YSWf0BCBGmjQ",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

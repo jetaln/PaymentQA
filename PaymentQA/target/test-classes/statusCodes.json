@@ -1,0 +1,7 @@
+{
+  "json": {
+    "success": "200",
+    "internal server error": "500",
+    "unauthorized": "400"
+  }
+}

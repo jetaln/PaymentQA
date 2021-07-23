@@ -1,0 +1,8 @@
+tokenParams:
+ grant_type: client_credentials
+tokenHeaders:
+ Content-Type: application/x-www-form-urlencoded
+ Authorization: Basic ZUpybDBUV0hHclhhdVFJcFp1VGhKQ2tYS1RIbTJJRGs6NElOdUZ1WDRuYkxoSGk3cg==
+dprnHeaders:
+ Accept: application/vnd.fif.api.v1+json
+ Authorization: Bearer
